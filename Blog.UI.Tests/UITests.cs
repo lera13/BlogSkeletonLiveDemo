@@ -61,8 +61,8 @@ namespace Blog.UI.Tests
             regPage.LinkRegistration.Click();
             regPage.FillRegistrationForm(user);
 
-            //regPage.AssertEmailErrorMessage("The Email field is not a valid e-mail address.");
-            //az
+            regPage.AssertEmailErrorMessage("The Email field is not a valid e-mail address.");
+            
          
         }
 
